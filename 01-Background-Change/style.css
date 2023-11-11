@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+}
+#btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10%;
+    outline:2px solid gray;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #343a40;
+    color: white;
+}
