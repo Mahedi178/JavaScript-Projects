@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #363062, #435585);
+}
+
+.clock {
+    width: 500px;
+    height: 200px;
+    background-color: #818fb4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #363062;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 5px solid #B3005E;
+}
+
+.clock p {
+    font-size: 60px;
+    letter-spacing: 6px;
+}
